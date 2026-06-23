@@ -6,7 +6,7 @@ import SignUp from './component/signuppage/signup';
 import Panel from './component/admin/Panel';
 import DashBoard from './component/admin/DashBoard';
 import Employees from './component/admin/pages/Employees';
-import Attendance from './component/admin/pages/attendance';
+import Attendance from './component/admin/pages/Attendance';
 import LeaveRequest from './component/admin/pages/LeaveRequest';
 import PayRoll from './component/admin/pages/PayRoll';
 import Performance from './component/admin/pages/Performance';

@@ -1,9 +1,9 @@
 import React from 'react'
 
-const attendance = () => {
+const Attendance = () => {
   return (
     <div>attendance</div>
   )
 }
 
-export default attendance
+export default Attendance
