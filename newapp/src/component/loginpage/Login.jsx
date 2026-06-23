@@ -1,6 +1,9 @@
-import {Link} from "react-router-dom";
+import {Link,useNavigate} from "react-router-dom";
 import {useState} from "react";
  function Login() {
+
+    let navigate = useNavigate()
+
     let[LoginData,setLoginData]= useState({});
     let[error,setError]= useState({});
     let handleChange=(e)=>{ //e is used to handle data
@@ -21,6 +24,7 @@ import {useState} from "react";
         }
         else{
             console.log("API DATA",LoginData);
+            navigate("/admin")
         }
         setError(formError);
     };
